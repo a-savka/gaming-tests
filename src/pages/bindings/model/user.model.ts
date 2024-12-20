@@ -52,7 +52,7 @@ export class User extends ObservableModelBase {
         this.stopTimer();
         this._timerId = setInterval(() => {
             this.ageInSeconds++;
-        }, 1000);
+        }, 100);
     }
 
     private stopTimer() {
